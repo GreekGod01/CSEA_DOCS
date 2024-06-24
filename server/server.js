@@ -18,7 +18,7 @@ connectToDb((err) => {
 
 const io = require("socket.io")(3001, {
     cors: {
-      origin: "https://mydocs1.vercel.app/",
+      origin: "https://mydocs1.vercel.app",
       methods: ["GET", "POST"],
     },
   })
