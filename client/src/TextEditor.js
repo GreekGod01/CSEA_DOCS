@@ -43,7 +43,7 @@ export default function TextEditor() {
 
 
   useEffect( ()=>{
-    const s  = io("http://localhost:3001" , {
+    const s  = io("https://mydocs04.vercel.app/" , {
       transports: ["websocket"], // Force WebSocket transport
       reconnectionAttempts: 5, // Try to reconnect 5 times
     })
