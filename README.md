@@ -43,17 +43,27 @@ Follow these steps to set up the project locally.
 
 2. **Install dependencies**:
     ```bash
-    npm install
     cd client
     npm install
-    cd ..
+    cd..
+    cd server
+    npm install
+    cd..
     ```
 
 
-4. **Run the application**:
+3. **Run the server on first terminal**:
     ```bash
-    npm run dev
-    ```
+    cd server
+    node server
+     ```
+    
+4. **Run the client on second terminal**:
+    ```bash
+    cd cliet
+    npm start
+    ```    
+    
 
 ## Usage
 
